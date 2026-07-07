@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 17/4/2026 to 10/7/2026
 
-![Your profile picture](/images/avatar.png)
+![Thach Hoai Phuc](/images/avatar.png)
 
 ### Report Content
 
