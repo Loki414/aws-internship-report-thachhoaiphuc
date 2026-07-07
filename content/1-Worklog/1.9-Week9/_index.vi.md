@@ -1,59 +1,35 @@
 ---
 title: "Worklog Tuần 9"
 date: 2024-01-01
-weight: 1
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Bắt đầu triển khai dự án **SmartHospital P2TB** — hệ thống quản lý bệnh viện trên AWS Serverless.
+* Phân tích trải nghiệm người dùng và thiết kế kiến trúc frontend theo vai trò Bệnh nhân / Bác sĩ.
+* Chuẩn bị nền tảng thiết kế hồ sơ bệnh án, mapping dữ liệu và quy ước hiển thị CCCD.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Phân tích trải nghiệm người dùng cho Bệnh nhân và Bác sĩ <br>&emsp; + Xác định màn hình: đăng nhập, đăng ký, dashboard <br>&emsp; + Đặt lịch khám, thông tin cá nhân, hồ sơ bệnh án <br>&emsp; + Xét nghiệm, hóa đơn, hàng chờ khám, phiếu khám, đơn thuốc | 15/06/2026 | 15/06/2026 | SmartHospital P2TB – Proposal |
+| 3 | - Thiết kế route frontend theo vai trò <br>&emsp; + Bệnh nhân → cổng bệnh nhân sau đăng nhập <br>&emsp; + Bác sĩ → giao diện bác sĩ <br>&emsp; + Sidebar/menu phù hợp nghiệp vụ từng vai trò | 16/06/2026 | 16/06/2026 | SmartHospital P2TB – Proposal |
+| 4 | - Thiết kế bố cục hồ sơ bệnh án <br>&emsp; + Một bệnh nhân – một quyển hồ sơ, nhiều trang/sự kiện y tế <br>&emsp; + Lịch khám, phiếu khám, xét nghiệm, đơn thuốc, hóa đơn, tài liệu y tế | 17/06/2026 | 17/06/2026 | SmartHospital P2TB – Proposal |
+| 5 | - Xác định dữ liệu frontend cần lấy từ backend <br>&emsp; + patient/doctor profile, appointments, medical record <br>&emsp; + examinations, prescriptions, lab results, invoices <br>&emsp; + ledger verification result | 18/06/2026 | 18/06/2026 | SmartHospital P2TB – API spec |
+| 6 | - Lên kế hoạch xử lý trạng thái UI: loading, empty, API error, token hết hạn <br>- Chuẩn hóa quy ước hiển thị CCCD/recordId trên UI <br>- Tổng hợp tuần 9 | 19/06/2026 | 19/06/2026 | SmartHospital P2TB – Proposal |
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thành phân tích UX và danh sách màn hình cho hai vai trò Bệnh nhân và Bác sĩ.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Thiết kế route frontend và cấu trúc menu theo vai trò.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Xác định mô hình hồ sơ bệnh án dạng timeline và mapping dữ liệu frontend–backend.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Chuẩn hóa quy ước hiển thị CCCD/recordId, tránh lệch mã giữa các trang.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Lên kế hoạch xử lý các trạng thái UI quan trọng (loading, empty, error, token expired, blockchain chưa có block, thanh toán chờ gateway).

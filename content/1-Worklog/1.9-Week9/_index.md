@@ -1,57 +1,35 @@
 ---
 title: "Week 9 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Begin implementing the **SmartHospital P2TB** project — a hospital management system on AWS Serverless.
+* Analyze user experience and design frontend architecture by Patient / Doctor roles.
+* Prepare medical record layout, data mapping, and CCCD display conventions.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Analyze UX for Patients and Doctors <br>&emsp; + Define screens: login, registration, dashboard <br>&emsp; + Appointment booking, personal info, medical records <br>&emsp; + Lab results, invoices, waiting queue, exam slips, prescriptions | 15/06/2026 | 15/06/2026 | SmartHospital P2TB – Proposal |
+| 3 | - Design role-based frontend routes <br>&emsp; + Patient → patient portal after login <br>&emsp; + Doctor → doctor interface <br>&emsp; + Role-appropriate sidebar/menu | 16/06/2026 | 16/06/2026 | SmartHospital P2TB – Proposal |
+| 4 | - Design medical record layout <br>&emsp; + One patient – one record book, multiple medical events <br>&emsp; + Appointments, exam slips, lab results, prescriptions, invoices, medical documents | 17/06/2026 | 17/06/2026 | SmartHospital P2TB – Proposal |
+| 5 | - Identify frontend data requirements from backend <br>&emsp; + patient/doctor profile, appointments, medical record <br>&emsp; + examinations, prescriptions, lab results, invoices <br>&emsp; + ledger verification result | 18/06/2026 | 18/06/2026 | SmartHospital P2TB – API spec |
+| 6 | - Plan UI state handling: loading, empty, API error, expired token <br>- Standardize CCCD/recordId display conventions <br>- Summarize Week 9 | 19/06/2026 | 19/06/2026 | SmartHospital P2TB – Proposal |
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed UX analysis and screen list for Patient and Doctor roles.
 
-* Successfully created and configured an AWS Free Tier account.
+* Designed frontend routes and menu structure by role.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Defined timeline medical record model and frontend–backend data mapping.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Standardized CCCD/recordId display conventions to avoid ID mismatches across pages.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Planned handling for critical UI states (loading, empty, error, expired token, missing blockchain block, pending payment gateway).

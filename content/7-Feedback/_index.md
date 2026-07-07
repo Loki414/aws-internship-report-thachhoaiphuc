@@ -6,42 +6,74 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+> I would like to share my personal experience after completing the 12-week **First Cloud AI Journey (FCAJ)** program at **Amazon Web Services Vietnam** (April 17, 2026 – July 10, 2026), to help the FCAJ team improve the program for future cohorts.
 
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Working Environment**
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+The FCAJ environment is friendly, open, and well-suited for students new to cloud computing. I learned primarily through the [Cloud Journey](https://cloudjourney.awsstudygroup.com/) platform and the AWS Study Group community, which allowed me to progress at my own pace while still feeling connected to the cohort. The two **FCAJ Community Day** sessions at Bitexco Financial Tower gave me the chance to meet speakers and the community in person, which made the program feel more engaging than purely online learning. I would appreciate a few more offline meetups or networking sessions among interns during the project phase (weeks 9–12) to exchange technical experience.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**2. Support from Mentor / Team Admin**
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Mentors and the admin team provided clear guidance on procedures, worklogs, AWS Credit, and reporting requirements. When I faced technical challenges — especially during the SmartHospital P2TB phase (frontend–backend mapping, CCCD/recordId sync, VNPay/MoMo integration, blockchain verification) — I received enough direction to find solutions myself rather than being given ready-made answers. I especially value that mentors encouraged me to debug independently and document results in my worklog. I suggest adding regular checkpoints (e.g., end of each week or at the start of the project phase) for interns to present progress and receive feedback earlier.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+**3. Relevance of Work to Academic Major**
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+As an **Information Technology** student at HUTECH, the FCAJ program aligns very well with my studies. Weeks 1–8 strengthened my foundation in networking, compute, storage, databases, and security on AWS — directly complementing my university coursework. Weeks 9–12 with the **SmartHospital P2TB** project exposed me to real-world problems: role-based UX design, React/Vite frontend development, serverless APIs, Cognito, DynamoDB, CloudFront, and payment integration — skills closely aligned with my goal of becoming a **Cloud Engineer / Full-stack Developer**.
+
+**4. Learning & Skill Development Opportunities**
+
+I gained many new skills over 12 weeks:
+
+* **Cloud:** EC2, VPC, S3, RDS, Lambda, DynamoDB, CloudFront, CloudFormation, CDK, KMS, Cognito, WAF, and more.
+* **Real project work:** patient/doctor flow design, E2E testing on CloudFront, VNPay/MoMo integration, blockchain verification UI (VALID/INVALID/NO_LEDGER_DATA).
+* **VPC Endpoint workshop:** understanding secure S3 access via gateway and interface endpoints.
+* **Community events:** exposure to agentic AI trends, Amazon Quick, Nova Sonic, MCP, and DevOps Agent through two Community Day sessions.
+
+Beyond technical skills, I improved at **report writing**, **tracking progress through weekly worklogs**, and **self-directed learning from documentation** — all valuable in a professional setting.
+
+**5. Company Culture & Team Spirit**
+
+The FCAJ community culture is positive: members readily share materials, lab experience, and support each other in the group. During the project phase, I exchanged ideas with fellow interns on API handling, UI states, and similar bugs, which accelerated my learning. Community Day sessions clearly reflected AWS culture: professional, open, and focused on continuous learning.
+
+**6. Internship Policies / Benefits**
+
+The program provides **AWS Credit** and a clearly structured learning path, allowing me to practice without worrying about personal cloud costs. Weekly worklogs helped me track progress and provide concrete evidence for my internship report. I also appreciate access to offline events and up-to-date content from AWS Study Group.
 
 ---
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+
+**What did you find most satisfying during your internship?**
+
+I was most satisfied with the **SmartHospital P2TB project phase** — from UX analysis and frontend development to E2E testing on CloudFront and completing the blockchain verification feature. It was my first time building a multi-module system (appointments, medical records, payments, ledger) on AWS Serverless, which showed me how cloud knowledge translates into a real product. The two **FCAJ Community Day** sessions were also memorable for broadening my perspective on AI and cloud operations.
+
+**What do you think the program should improve for future interns?**
+
+* Add **regular mentor checkpoints** during the project phase, especially when integrating payments and blockchain.
+* Provide a **sprint planning template** or weekly task breakdown suggestions for the final project to avoid cramming work at the end of the week.
+* Encourage brief **code reviews** among interns or with mentors before E2E testing.
+* Offer focused **technical Q&A sessions** on common issues when deploying frontends to CloudFront and working with Cognito.
+
+**If recommending to a friend, would you suggest they intern here? Why or why not?**
+
+**Yes.** FCAJ is well-suited for IT students who want a solid AWS foundation and real project experience. The 12-week roadmap is clear, resources are abundant, community support is strong, and offline events help expand your network. I would advise friends to prepare for self-directed learning, maintain consistent worklogs, and proactively ask mentors when hitting technical blockers.
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+**Do you have any suggestions to improve the internship experience?**
+
+* Organize 1–2 **end-of-program project showcase** sessions where interns present SmartHospital (or equivalent projects) and receive feedback.
+* Provide a sample **E2E test checklist** for multi-role flows (patient/doctor) before final report submission.
+* Continue and expand **Community Day** — I found it to be a highlight that connects cloud theory with real-world AI trends.
+
+**Would you like to continue this program in the future?**
+
+**Yes.** I hope to stay involved with the AWS Study Group community, follow FCAJ events, and further develop my cloud skills toward a **Cloud Engineer / Full-stack Developer** role after graduation.
+
+**Any other comments (free sharing):**
+
+Thank you to the FCAJ team, mentors, and AWS Vietnam for creating a structured and practical learning environment. These 12 weeks helped me go beyond "knowing AWS" to **knowing how to deliver a complete product** — from console and labs, through workshops and events, to the SmartHospital P2TB project. This foundation gives me confidence to enter the IT workforce in Vietnam.

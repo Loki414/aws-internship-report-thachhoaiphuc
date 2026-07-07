@@ -6,34 +6,23 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+**Internship Progress Tracking** — Bootcamp First Cloud AI Journey
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+**Internship period:** April 17, 2026 – July 10, 2026 (12 weeks)
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+**Implementation project (Weeks 9–12):** SmartHospital P2TB — Hospital management system on AWS Serverless
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
-
-**Week 2:** [Doing task A...](1.2-week2/)
-
-**Week 3:** [Doing task B...](1.3-week3/)
-
-**Week 4:** [Doing task C...](1.4-week4/)
-
-**Week 5:** [Doing task D...](1.5-week5/)
-
-**Week 6:** [Doing task E...](1.6-week6/)
-
-**Week 7:** [Doing task G...](1.7-week7/)
-
-**Week 8:** [Doing task H...](1.8-week8/)
-
-**Week 9:** [Doing task I...](1.9-week9/)
-
-**Week 10:** [Doing task L...](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)
+| Week | Date | Content |
+| --- | --- | --- |
+| **1** | 17/04/2026 – 24/04/2026 | [AWS Console, EC2 basics, and AWS Credits](1.1-Week1/) |
+| **2** | 25/04/2026 – 01/05/2026 | [VPC, S3, and RDS](1.2-Week2/) |
+| **3** | 02/05/2026 – 08/05/2026 | [Auto Scaling, CloudWatch, and Route 53](1.3-Week3/) |
+| **4** | 09/05/2026 – 15/05/2026 | [Advanced IAM, Lambda, and architecture diagram](1.4-Week4/) |
+| **5** | 16/05/2026 – 22/05/2026 | [DynamoDB, ElastiCache, CloudFront, and Lambda@Edge](1.5-Week5/) |
+| **6** | 23/05/2026 – 29/05/2026 | [AWS CLI, CloudFormation, CDK, and Systems Manager](1.6-Week6/) |
+| **7** | 30/05/2026 – 05/06/2026 | [KMS, Secrets Manager, WAF, Cognito, and AWS Backup](1.7-Week7/) |
+| **8** | 06/06/2026 – 12/06/2026 | [Lightsail, HA web apps, and architecture optimization](1.8-Week8/) |
+| **9** | 15/06/2026 – 19/06/2026 | [SmartHospital P2TB — UX analysis and frontend design](1.9-Week9/) |
+| **10** | 22/06/2026 – 26/06/2026 | [SmartHospital P2TB — Patient/doctor UI and API services](1.10-Week10/) |
+| **11** | 29/06/2026 – 03/07/2026 | [SmartHospital P2TB — Medical records, exams, and payments](1.11-Week11/) |
+| **12** | 06/07/2026 – 10/07/2026 | [SmartHospital P2TB — Blockchain UI, testing, and final report](1.12-Week12/) |

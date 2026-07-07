@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build website
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://loki414.github.io/aws-internship-report-thachhoaiphuc/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

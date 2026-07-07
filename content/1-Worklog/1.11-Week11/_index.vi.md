@@ -1,59 +1,33 @@
 ---
 title: "Worklog Tuần 11"
 date: 2024-01-01
-weight: 2
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện giao diện hồ sơ bệnh án dạng timeline cho bệnh nhân.
+* Hoàn thiện luồng bác sĩ lập phiếu khám, kê đơn và yêu cầu xét nghiệm.
+* Triển khai giao diện hóa đơn và thanh toán VNPay/MoMo.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Hoàn thiện giao diện hồ sơ bệnh án bệnh nhân <br>&emsp; + Hiển thị mã hồ sơ theo CCCD, thông tin bệnh nhân <br>&emsp; + Tóm tắt lịch sử bệnh, thống kê đợt khám/phiếu khám/đơn thuốc/xét nghiệm | 29/06/2026 | 29/06/2026 | SmartHospital P2TB – Frontend |
+| 3 | - Hoàn thiện timeline hồ sơ bệnh án theo đợt khám/ngày khám <br>&emsp; + Thẻ lịch khám, phiếu khám, xét nghiệm, đơn thuốc, hóa đơn <br>&emsp; + Bật/tắt bộ lọc theo loại sự kiện và theo ngày | 30/06/2026 | 30/06/2026 | SmartHospital P2TB – Frontend |
+| 4 | - Sửa lỗi lệch thông tin hồ sơ giữa tiêu đề và chi tiết phiếu khám/xét nghiệm/đơn thuốc <br>&emsp; + Ưu tiên recordId/medicalRecordId/citizenId dạng CCCD trên toàn bộ component | 01/07/2026 | 01/07/2026 | SmartHospital P2TB – Frontend |
+| 5 | - Hoàn thiện giao diện bác sĩ lập phiếu khám <br>&emsp; + Chọn bệnh nhân/hồ sơ bằng CCCD <br>&emsp; + Nhập triệu chứng, chẩn đoán, lời dặn <br>&emsp; + Tạo phiếu khám, kê đơn thuốc, yêu cầu xét nghiệm qua API | 02/07/2026 | 02/07/2026 | SmartHospital P2TB – API spec |
+| 6 | - Hoàn thiện giao diện hóa đơn và thanh toán bệnh nhân <br>&emsp; + Hóa đơn chờ/đã thanh toán, chi tiết hóa đơn <br>&emsp; + Chuyển sang VNPay/MoMo theo paymentUrl <br>- UI nhận kết quả thanh toán sau returnUrl, reload hóa đơn từ backend | 03/07/2026 | 03/07/2026 | SmartHospital P2TB – Payment |
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thiện hồ sơ bệnh án dạng timeline với bộ lọc theo loại sự kiện và ngày.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Đồng bộ recordId/CCCD trên toàn bộ component, sửa lỗi lệch thông tin hồ sơ.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hoàn thiện luồng bác sĩ: lập phiếu khám, kê đơn, tạo yêu cầu xét nghiệm.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Triển khai thanh toán thật qua VNPay/MoMo với xử lý kết quả returnUrl/callback.

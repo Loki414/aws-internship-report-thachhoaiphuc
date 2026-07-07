@@ -1,57 +1,35 @@
 ---
 title: "Week 10 Worklog"
 date: 2024-01-01
-weight: 2
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Build basic patient and doctor interfaces for SmartHospital P2TB.
+* Implement frontend service layer calling backend APIs (React/Vite).
+* Test with seed data and fix frontend–backend data mapping issues.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Build basic patient interface <br>&emsp; + Personal info page, contact updates <br>&emsp; + Display CCCD, date of birth, gender, address, health insurance (BHYT) <br>&emsp; + Data states from Cognito/backend | 22/06/2026 | 22/06/2026 | SmartHospital P2TB – Frontend |
+| 3 | - Build patient appointment booking interface <br>&emsp; + Select department, doctor, date, time slot <br>&emsp; + Submit booking request <br>&emsp; + Display existing appointments | 23/06/2026 | 23/06/2026 | SmartHospital P2TB – Frontend |
+| 4 | - Build basic doctor interface <br>&emsp; + Doctor dashboard, appointment/waiting queue list <br>&emsp; + Patient info, search by CCCD <br>&emsp; + Open medical record to prepare exam slip | 24/06/2026 | 24/06/2026 | SmartHospital P2TB – Frontend |
+| 5 | - Build frontend services calling backend APIs <br>&emsp; + Standardize Authorization token <br>&emsp; + Handle 401/403 errors, empty responses <br>&emsp; + Map backend data to UI components | 25/06/2026 | 25/06/2026 | SmartHospital P2TB – API spec |
+| 6 | - Test frontend with initial seed data <br>- Fix mapping errors (patientId/maBN, recordId/maHSBA, doctorName/hoTen) <br>- Fix UI bugs: CloudFront refresh, wrong routes, wrong role menu, form not reset | 26/06/2026 | 26/06/2026 | SmartHospital P2TB – Frontend |
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed patient interface: personal info and appointment booking.
 
-* Successfully created and configured an AWS Free Tier account.
+* Completed basic doctor interface: dashboard, waiting queue, CCCD search.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Implemented frontend service layer with standardized token and API error handling.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Identified and fixed data mapping issues between backend and frontend.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Resolved UX bugs: wrong role routes, page not loading after CloudFront refresh.

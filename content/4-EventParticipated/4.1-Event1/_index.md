@@ -6,121 +6,99 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Summary Report: FCAJ Community Day
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+**Event link:** [https://luma.com/ubaur0y5](https://luma.com/ubaur0y5)
+
+### Event Information
+
+| Item | Details |
+| --- | --- |
+| **Event name** | FCAJ Community Day |
+| **Date & time** | May 23, 2026 · 09:00 – 12:00 (GMT+7) |
+| **Location** | 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City |
+| **Organizers** | Huỳnh Hoàng Long, Thien Lu, Trần Đại Vĩ |
+| **My role** | Attendee |
+| **Scale** | ~399 participants |
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Connect the FCAJ intern community with AWS practitioners and industry experts
+- Share practical knowledge on cloud, AI, and modern software engineering
+- Inspire students and early-career engineers through real-world case studies and demos
+- Expand networking opportunities within the AWS and cloud community in Vietnam
 
-### Speakers
+### Agenda & Key Sessions
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+#### 09:00 – 09:30 | Context Is Everything: Making AI Actually Work for You — Tinh Truong
 
-### Key Highlights
+- Why AI fails without proper context and what “context” really means in practice
+- Evolution from prompts to memory — the “Second AI Brain” concept
+- How better context leads to better AI outcomes, with practical tips and career insights
+- Q&A on building with AI as a student or early-career engineer
 
-#### Identifying the drawbacks of legacy application architecture
+#### 09:30 – 09:45 | Friendly AI Assistant with Amazon Quick — Anh Pham
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- **Quick Chat Agent:** AI assistants for exploring data and analyzing insights
+- **Quick Flows:** Building intelligent workflows with natural language, no coding required
+- **Quick Spaces:** Collaborative spaces that turn individual insights into team knowledge
+- **Quick Sight:** Creating dashboards and reports from raw data using natural language
 
-#### Transitioning to modern application architecture – Microservices
+#### 09:45 – 10:25 | From Edge To Origin: CloudFront as Your Foundation — Thinh Nguyen
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Using Amazon CloudFront across different workload types
+- Cost optimization strategies with CloudFront
+- Security capabilities and enhanced reliability
+- Performance improvements at the edge
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### 10:25 – 10:55 | 36 hrs with LotusHacks – Building UTMorpho from Idea to Reality — Team VIB
 
-#### Domain-Driven Design (DDD)
+- Motivation for joining LotusHacks and the brainstorming journey
+- Defining the problem and shaping the UTMorpho product
+- Building under pressure during a 36-hour development sprint
+- Challenges, failures, turning points, and a live product demo
+- Key learnings and next steps for the team
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### 11:00 – 11:30 | Non-Determinism of "Deterministic" LLM Settings — Duc Dao
 
-#### Event-Driven Architecture
+- How LLMs choose the next token during inference
+- The assumption that Temperature = 0 guarantees determinism
+- How inference optimizations can break that assumption in practice
+- Practical impacts and mitigation strategies for production AI systems
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### 11:30 – 12:00 | Enterprise-Grade Multi-Agent System: Startup Credit Scoring — Vy Lam
 
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- Structural mismatch between traditional banking systems and startup data
+- When to use a single agent vs. a multi-agent architecture
+- Blueprint of a virtual credit committee with guardrails and compliance
+- Operational ROI, implementation roadmap, and Q&A
 
 ### Key Takeaways
 
-#### Design Mindset
+#### AI & Context Engineering
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- AI quality depends heavily on **context**, not just the model or prompt
+- Moving from one-off prompts to persistent memory and structured context is a key trend
+- Tools like **Amazon Quick** lower the barrier for building AI-assisted data workflows
 
-#### Technical Architecture
+#### Cloud & Infrastructure
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Amazon CloudFront** is a foundational service for performance, security, and cost control at the edge
+- Understanding CDN architecture helps when designing scalable cloud applications
 
-#### Modernization Strategy
+#### Engineering Mindset
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Hackathon stories (LotusHacks / UTMorpho) showed how to move from idea to MVP under time pressure
+- **LLM determinism** is not guaranteed even with Temperature = 0 — important for production systems
+- **Multi-agent systems** can solve complex enterprise problems when designed with proper guardrails
 
-### Applying to Work
+### Value Gained
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- Broader understanding of how AWS services and AI tools are applied in real projects
+- Exposure to both technical depth (CloudFront, LLM inference) and product thinking (hackathon, credit scoring)
+- Stronger motivation to connect classroom learning with industry practice during my FCAJ internship
 
 #### Some event photos
-*Add your event photos here*  
+*Add your event photos here*
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> FCAJ Community Day gave me a concentrated half-day of learning across AI, cloud, and software engineering — directly relevant to my internship at AWS Vietnam.
