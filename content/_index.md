@@ -1,12 +1,12 @@
 ---
-title: "FCJ Cloud Intern"
+title: "Internship Report"
 date: 2024-01-01
 weight: 1
 chapter: false
 ---
 
     
-# FCJ Cloud Intern
+# Internship Report
 
 ### Student Information:
 &emsp; **Full Name:** Thach Hoai Phuc
@@ -23,7 +23,7 @@ chapter: false
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Position:** FCJ Cloud Intern
 
 &emsp; **Internship Duration:** From 17/4/2026 to 10/7/2026
 

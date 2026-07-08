@@ -1,11 +1,11 @@
 ---
-title: "FCJ Cloud Intern"
+title: "Báo cáo thực tập"
 date: 2024-01-01
 weight: 1
 chapter: false
 ---
 
-# FCJ Cloud Intern
+# Báo cáo thực tập
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Thạch Hoài Phúc
 
@@ -21,7 +21,7 @@ chapter: false
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/4/2026 đến ngày 10/7/2026
 
