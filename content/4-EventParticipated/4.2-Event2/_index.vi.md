@@ -125,6 +125,9 @@ Tham dự **FCAJ Community Day** lần thứ hai bổ sung cho sự kiện thán
 - AI doanh nghiệp cần cân bằng tự động hóa với tuân thủ và giám sát của con người
 
 #### Một số hình ảnh khi tham gia sự kiện
-*Thêm hình ảnh của bạn tại đây*
+
+![AWS DevOps Agent — Bao Phan & Nguyen Nguyen](/images/4-EventParticipated/4.2-Event2/devops-agent.png)
+
+![AgenticOps for your Cloud — CloudThreaker](/images/4-EventParticipated/4.2-Event2/agenticops.png)
 
 > Sự kiện Community Day lần hai giúp em hiểu sâu hơn cách AWS xây dựng thế hệ vận hành cloud hỗ trợ bởi AI — rất sát với mục tiêu thực tập và định hướng nghề nghiệp cloud/AI của em.

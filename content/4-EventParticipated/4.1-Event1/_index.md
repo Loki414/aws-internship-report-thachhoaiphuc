@@ -99,6 +99,9 @@ pre: " <b> 4.1. </b> "
 - Stronger motivation to connect classroom learning with industry practice during my FCAJ internship
 
 #### Some event photos
-*Add your event photos here*
+
+![Context Is Everything — Tinh Truong](/images/4-EventParticipated/4.1-Event1/context-ai.png)
+
+![CloudFront as Your Foundation — Thinh Nguyen](/images/4-EventParticipated/4.1-Event1/cloudfront.png)
 
 > FCAJ Community Day gave me a concentrated half-day of learning across AI, cloud, and software engineering — directly relevant to my internship at AWS Vietnam.

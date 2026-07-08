@@ -125,6 +125,9 @@ Attending this second **FCAJ Community Day** complemented the first event by foc
 - Enterprise AI adoption requires balancing automation with compliance and human oversight
 
 #### Some event photos
-*Add your event photos here*
+
+![AWS DevOps Agent — Bao Phan & Nguyen Nguyen](/images/4-EventParticipated/4.2-Event2/devops-agent.png)
+
+![AgenticOps for your Cloud — CloudThreaker](/images/4-EventParticipated/4.2-Event2/agenticops.png)
 
 > This second Community Day deepened my understanding of how AWS is building the next generation of AI-powered cloud operations — directly relevant to my internship and career goals in cloud and AI.

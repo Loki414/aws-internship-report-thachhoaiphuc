@@ -99,6 +99,9 @@ pre: " <b> 4.1. </b> "
 - Tăng động lực kết nối kiến thức trên lớp với thực hành trong kỳ thực tập FCAJ
 
 #### Một số hình ảnh khi tham gia sự kiện
-*Thêm hình ảnh của bạn tại đây*
+
+![Context Is Everything — Tinh Truong](/images/4-EventParticipated/4.1-Event1/context-ai.png)
+
+![CloudFront as Your Foundation — Thinh Nguyen](/images/4-EventParticipated/4.1-Event1/cloudfront.png)
 
 > FCAJ Community Day mang đến cho em một buổi học tập cô đọng về AI, cloud và kỹ thuật phần mềm — rất sát với hành trình thực tập tại AWS Vietnam.
