@@ -28,6 +28,8 @@ npm --prefix web install
 npx cdk bootstrap aws://$AccountId/$Region --profile $Profile
 ```
 
+![CDK bootstrap command](/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk-bootstrap-command.png)
+
 #### Kiểm tra
 
 ```powershell
@@ -38,4 +40,3 @@ aws cloudformation describe-stacks `
   --query "Stacks[0].StackStatus" `
   --output text
 ```
-![CDKToolkit console](/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk_1.png)

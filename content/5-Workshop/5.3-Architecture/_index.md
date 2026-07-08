@@ -24,7 +24,7 @@ The MedChain AI lab uses the following AWS services:
 
 Users access the system through the CloudFront distribution domain.
 
-![Sơ đồ kiến trúc](/images/5-Workshop/5.3-Architecture/architecture-0.png)
+![Architecture diagram](/images/5-Workshop/5.3-Architecture/architecture-0.png)
 
 #### Main Execution Flow
 

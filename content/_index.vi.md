@@ -1,11 +1,11 @@
 ---
-title: "Báo cáo thực tập"
+title: "FCJ Cloud Intern"
 date: 2024-01-01
 weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
+# FCJ Cloud Intern
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Thạch Hoài Phúc
 
