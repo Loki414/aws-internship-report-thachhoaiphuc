@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 17/4/2026 to 10/7/2026
+&emsp; **Internship Duration:** From 17/4/2026 to 30/7/2026
 
 ![Thach Hoai Phuc](/images/avatar.png)
 

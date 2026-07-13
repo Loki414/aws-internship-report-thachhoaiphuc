@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **Amazon Web Services Vietnam** through the **First Cloud AI Journey (FCAJ)** program from **April 17, 2026** to **July 10, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired at university to a real-world working environment.
+During my internship at **Amazon Web Services Vietnam** through the **First Cloud AI Journey (FCAJ)** program from **April 17, 2026** to **July 30, 2026**, I had the opportunity to learn, practice, and apply the knowledge acquired at university to a real-world working environment.
 
 The 12-week internship was divided into two clear phases:
 

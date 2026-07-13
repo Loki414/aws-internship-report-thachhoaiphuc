@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Amazon Web Services Vietnam** thông qua chương trình **First Cloud AI Journey (FCAJ)** từ **17/04/2026** đến **10/07/2026**, em đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
+Trong suốt thời gian thực tập tại **Amazon Web Services Vietnam** thông qua chương trình **First Cloud AI Journey (FCAJ)** từ **17/04/2026** đến **30/07/2026**, em đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
 
 12 tuần thực tập được chia thành hai giai đoạn rõ rệt:
 

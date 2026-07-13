@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> I would like to share my personal experience after completing the 12-week **First Cloud AI Journey (FCAJ)** program at **Amazon Web Services Vietnam** (April 17, 2026 – July 10, 2026), to help the FCAJ team improve the program for future cohorts.
+> I would like to share my personal experience after completing the 12-week **First Cloud AI Journey (FCAJ)** program at **Amazon Web Services Vietnam** (April 17, 2026 – July 30, 2026), to help the FCAJ team improve the program for future cohorts.
 
 ### Overall Evaluation
 

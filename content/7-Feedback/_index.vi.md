@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> Em xin chia sẻ cảm nhận cá nhân sau 12 tuần tham gia chương trình **First Cloud AI Journey (FCAJ)** tại **Amazon Web Services Vietnam** (17/04/2026 – 10/07/2026), nhằm giúp team FCAJ cải thiện trải nghiệm cho các khóa sau.
+> Em xin chia sẻ cảm nhận cá nhân sau 12 tuần tham gia chương trình **First Cloud AI Journey (FCAJ)** tại **Amazon Web Services Vietnam** (17/04/2026 – 30/07/2026), nhằm giúp team FCAJ cải thiện trải nghiệm cho các khóa sau.
 
 ### Đánh giá chung
 

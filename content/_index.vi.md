@@ -23,7 +23,7 @@ chapter: false
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 17/4/2026 đến ngày 10/7/2026
+&emsp; **Thời gian thực tập:** Từ ngày 17/4/2026 đến ngày 30/7/2026
 
 ![Thạch Hoài Phúc](/images/avatar.png)
 
