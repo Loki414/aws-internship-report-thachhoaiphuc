@@ -22,6 +22,10 @@ Website cuối cùng chạy bằng CloudFront distribution domain. VNPay Return 
 
 Thứ tự trong workshop được sắp xếp theo phụ thuộc thực tế: chuẩn bị tài khoản và công cụ, tạo các dịch vụ cần có trước khi deploy, triển khai stack ứng dụng, khởi tạo dữ liệu, cấu hình tích hợp, kiểm thử luồng nghiệp vụ, giám sát hệ thống và dọn dẹp tài nguyên.
 
+#### Demo
+
+Đây là kết quả sau khi tôi thực sự hoàn thành dự án của mình: [https://drive.google.com/drive/folders/1s8M2WMwgb5b--pwjSqwfjgqzejdAWm3d?usp=sharing](https://drive.google.com/drive/folders/1s8M2WMwgb5b--pwjSqwfjgqzejdAWm3d?usp=sharing)
+
 #### Nội dung
 
 1. [Tổng quan workshop](5.1-Workshop-overview/)

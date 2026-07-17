@@ -22,6 +22,10 @@ The final website runs on the CloudFront distribution domain. VNPay Return URL a
 
 The order in this workshop follows the real dependency order. You will prepare the account and tools first, create services that must exist before deployment, deploy the application stack, initialize application data, configure integrations, test the business flow, monitor the system, and clean up resources.
 
+#### Demo
+
+These are the results after I actually built my project: [https://drive.google.com/drive/folders/1s8M2WMwgb5b--pwjSqwfjgqzejdAWm3d?usp=sharing](https://drive.google.com/drive/folders/1s8M2WMwgb5b--pwjSqwfjgqzejdAWm3d?usp=sharing)
+
 #### Content
 
 1. [Workshop overview](5.1-Workshop-overview/)
